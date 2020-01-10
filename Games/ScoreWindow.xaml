@@ -1,0 +1,15 @@
+﻿<Window x:Class="Games.ScoreWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Games"
+        mc:Ignorable="d"
+        Title="ScoreWindow" Height="310" Width="400">
+    <Grid>
+        <TextBox Name="ScoreName" HorizontalAlignment="Center" Height="129" Margin="0,63,0,0" TextWrapping="Wrap" Text="" TextAlignment="Center" FontSize="36" VerticalAlignment="Top" Width="362" RenderTransformOrigin="0.546,2.025"/>
+        <Button Name="ScoreButton" Content="Button" HorizontalAlignment="Center" Height="74" Margin="0,197,0,0" VerticalAlignment="Top" Width="198" RenderTransformOrigin="0.852,0.399" Click="ScoreButton_Click"/>
+        <TextBlock HorizontalAlignment="Center" Height="70" Margin="0,-12,0,0" TextWrapping="Wrap" Text="Enter Name" VerticalAlignment="Top" Width="198" FontSize="36" TextAlignment="Center"/>
+
+    </Grid>
+</Window>
